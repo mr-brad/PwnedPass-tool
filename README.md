@@ -10,17 +10,22 @@ This tool is a Python 3 based script.
 
 This will require Python 3 installed. In Windows this may need to be [downloaded and installed](https://www.python.org/downloads/); in most Linux/Unix flavours this is installed as standard. I believe Mac follows Linux/Unix, but am unable to test.
 
-This is written and tested in Python 3.6 under Windows. It uses Tkinter for a GUI and URLLIB, these are all standard library, so it should 'just work'.
+This is written and tested in Python 3.6 under Windows. It uses Tkinter for a GUI and URLLIB, these are all standard library so it should 'just work'.
 
-Call it by clicking its icon, or invoking its name on command line while in the relevant folder, e.g.
+* Install Python 3 if it's not preinstalled.
+* Download the PwnedPassTool.py script.
+* Launch the script by clicking its icon or invoking it from command line, e.g.
 ```
 C:\Users\You\Downloads\PwnedPassTool.py
-./PwnedPassTool.py
+```
+or
+```
+./Downloads/PwnedPassTool.py
 ```
 
 ## License
 
-For clarity, this is licensed under the MIT License making it free to copy and adapt - see the [LICENSE.md](LICENSE.md) file for details
+For clarity, this is licensed under the MIT License making it free to copy and adapt - see the [LICENSE.txt](LICENSE.txt) file for details
 
 ## Acknowledgments
 
