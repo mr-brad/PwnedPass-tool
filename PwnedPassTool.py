@@ -132,7 +132,11 @@ ttk.Label(sha_box, text="Enter Password to be Tested").pack(anchor="center")
 pswd_entered = ttk.Entry(sha_box, show='*', width=30, textvariable=SV_pswd)
 pswd_entered.pack(anchor="center")
 pswd_entered.focus()
-SV_pswd.trace_add("write", update_fields)
+# Compatibility - 3.6+ deprecates trace() for trace_add(); <=3.5 don't know trace_add()
+try:    # 3.6+
+    SV_pswd.trace_add("write", update_fields)
+except: # <=3.5
+    SV_pswd.trace("w", update_fields)
 ## Obfuscation toggle - on by default
 hide_pass = tk.Checkbutton(sha_box, text='Hide my Password', variable=BV_hide_my_pass, command=hide_pass_field)
 hide_pass.select()
