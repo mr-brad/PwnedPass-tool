@@ -8,19 +8,19 @@ This tool is a Python 3 based script.
 
 ### Prerequisites
 
-This will require Python 3 installed. In Windows this may need to be [downloaded and installed](https://www.python.org/downloads/); in most Linux/Unix flavours this is installed as standard. I believe Mac follows Linux/Unix, but am unable to test.
+This will require Python 3 installed. In Windows this may need to be [downloaded and installed](https://www.python.org/downloads/); in most Linux/Unix flavours this is installed as standard. Some older Linux distros may need python3-tk (through an apt-get). I believe Mac follows Linux/Unix, but am unable to test.
 
-This is written and tested in Python 3.6 under Windows. It uses Tkinter for a GUI and URLLIB, these are all standard library so it should 'just work'.
+This is written and tested in Python 3.6 under Windows and Kali 2018.2. It only imports from standard library so should 'just work' without additional dependencies.
 
 * Install Python 3 if it's not preinstalled.
 * Download the PwnedPassTool.py script.
 * Launch the script by clicking its icon or invoking it from command line, e.g.
 ```
-C:\Users\You\Downloads\PwnedPassTool.py
+C:\Users\You\Downloads\PwnedPassTool.pyw
 ```
 or
 ```
-./Downloads/PwnedPassTool.py
+./Downloads/PwnedPassTool.pyw
 ```
 
 ## License
